@@ -1,8 +1,10 @@
 {
   "editor.insertSpaces": true,
   "editor.tabSize": 4,
-  "editor.formatOnSave": true,
   "[python]": {
-    "editor.defaultFormatter": "ms-python.black-formatter"
-  }
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "editor.formatOnSave": true,
+    "editor.formatOnSaveMode": "file"
+  },
+  "black-formatter.showNotifications": "onError"
 }
