@@ -4,7 +4,16 @@
   "[python]": {
     "editor.defaultFormatter": "ms-python.black-formatter",
     "editor.formatOnSave": true,
-    "editor.formatOnSaveMode": "file"
+    "editor.formatOnSaveMode": "file",
+    "editor.quickSuggestions": {
+      "other": false,
+      "comments": false,
+      "strings": false
+    },
+    "editor.suggestOnTriggerCharacters": false,
+    "editor.inlineSuggest.enabled": true,
+    "editor.parameterHints.enabled": false,
+    "editor.wordBasedSuggestions": "off"
   },
   "black-formatter.showNotifications": "onError"
 }

@@ -11,4 +11,9 @@ class Solution:
             reversed_num = reversed_num * 10 + digit
             x //= 10
 
-    return original == reversed_num
+        return original == reversed_num
+
+
+if __name__ == "__main__":
+    solution = Solution()
+    print(solution.isPalindrome(121))
