@@ -6,7 +6,7 @@ class Solution:
         n = len(nums2)
         i, j = 0, 0
         while i < m and j < n:
-            if nums1[i] < nums2[j]:
+            if nums1[i] <= nums2[j]:
                 result_arr.append(nums1[i])
                 i = i + 1
             else:
